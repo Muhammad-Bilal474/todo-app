@@ -1,0 +1,169 @@
+body{
+   background-image: url('images/bg1.jpg');
+   margin: 0;
+   padding: 0;
+    
+}
+
+.navbar{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+
+}
+
+.navbar img{
+    height: 3rem;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.inputAll{
+    width: 25rem;
+   min-height: 32rem;
+   max-height: auto;
+    margin: auto;
+    margin-top: 3.5rem;
+    border: 3px solid skyblue;
+    background-color:rgb(255, 255, 255);
+    border-radius: 6px;
+
+}
+
+.image{
+    width: 7rem;
+    height: 5rem;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    
+}
+
+
+
+
+
+.data{
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+}
+
+.data input{
+    background-color: rgb(253, 253, 253);
+    width: 18rem;
+    border: none;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(236, 228, 150);
+    transition: width .5s ease, border-bottom .5s ease;
+}
+
+.data input:focus{
+    width: 18rem;
+    border: none;
+    outline: none;
+    border-bottom : 5px solid rgb(248, 184, 7)
+
+}
+
+
+
+.image1{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 1rem;
+    width: 2rem;
+}
+
+.image1{
+    cursor: pointer;
+}
+
+
+
+.heading{
+    margin-left: 3rem;
+   
+}
+
+.btns{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.post{
+    background-color: white;
+    margin: auto;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    width: 95%;
+    border-bottom: skyblue;
+    box-shadow: 2px 2px 5px skyblue;
+    margin-top: 1rem;
+}
+
+.buttns{
+    margin-left: 3rem;
+}
+
+.buttns button{
+    font-size: 16px;
+    border-radius: 3px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(32, 173, 55);
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 4px rgb(233, 189, 67);
+}
+
+.buttns button:hover{
+    background-color: rgb(43, 133, 58);
+    color: rgb(78, 78, 64);
+}
+
+.update{
+    background-color: orangered;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 15.5rem;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.update:hover{
+    background-color:rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+
+}
+
+.dl8{
+    background-color: orangered;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 1rem;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.dl8:hover{
+    background-color:rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#input{
+    margin: auto;
+    height: auto;
+}
+
+.hid{
+    display: none;
+}
